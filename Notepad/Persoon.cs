@@ -13,7 +13,7 @@ namespace Notepad
         public DateTime GeboorteDatum { get; set; }
         public override string ToString()
         {
-            return Voornaam + " " + Achternaam + " " + String.Format("({0})", GeboorteDatum);
+            return Voornaam + "   " + Achternaam + " " + String.Format("({0})", GeboorteDatum);
         }
     }
     
